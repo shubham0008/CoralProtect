@@ -21,15 +21,21 @@ import com.google.android.gms.maps.model.Circle;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class CoralMapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+    private DatabaseReference mDatabase;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coral_maps);
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -134,6 +140,9 @@ public class CoralMapsActivity extends AppCompatActivity implements OnMapReadyCa
                 // Perform Action on Button
                 Double currLat = circle.getCenter().latitude;
                 Double currLong = circle.getCenter().longitude;
+                mDatabase.child("User").child("UID").child("Dive").child("Lat").setValue(currLat);
+                mDatabase.child("User").child("UID").child("Dive").child("Long").setValue(currLat);
+
                 circle.setFillColor(Color.argb(128, 0, 255, 0));
                 Toast.makeText(CoralMapsActivity.this, "Co-ords:" + currLat + " and "+ currLong, Toast.LENGTH_SHORT).show();
             }

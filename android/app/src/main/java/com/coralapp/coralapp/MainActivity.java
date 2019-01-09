@@ -18,13 +18,13 @@ public class MainActivity extends AppCompatActivity {
         emailET = (EditText)  findViewById(R.id.username);
         passwordET = (EditText)  findViewById(R.id.password);
 
-        emailET.setText("sk");
-        passwordET.setText("sk");
+        emailET.setText("CoralProtect");
+        passwordET.setText("coral");
 
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(emailET.getText().toString().equals("sk") && passwordET.getText().toString().equals("sk")){
+                if(emailET.getText().toString().equals("CoralProtect") && passwordET.getText().toString().equals("coral")){
                     startActivity(new Intent(MainActivity.this, FeatureActivity.class));
                     finish();
                 }else{

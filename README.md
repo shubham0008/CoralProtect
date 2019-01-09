@@ -26,8 +26,10 @@ The mobile application provides two main features:
 * [GoogleMapsAPI] - Build customized, agile experiences that bring the real world to your users with static and dynamic maps
 * [FireBase RealTime Database] - Google's mobile platform for quickly developing high-quality apps
 * [Google Cloud Platform] - A suite of cloud computing services that runs on the same infrastructure that Google
+* [Docker] - A computer program that performs operating-system-level virtualization, also known as "containerization"
 
 [TensorFlow]: <https://www.tensorflow.org>
 [GoogleMapsAPI]: <https://developers.google.com/maps>
-[FireBase RealTime Database]: <https://firebase.google.com/>
+[FireBase RealTime Database]: <https://firebase.google.com>
 [Google Cloud Platform]: <https://cloud.google.com>
+[Docker]: <https://www.docker.com>

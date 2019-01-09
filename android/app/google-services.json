@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "557195665484",
+    "firebase_url": "https://coralprotect-4d11c.firebaseio.com",
+    "project_id": "coralprotect-4d11c",
+    "storage_bucket": "coralprotect-4d11c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557195665484:android:fce3610493631a89",
+        "android_client_info": {
+          "package_name": "com.coralapp.coralapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557195665484-bqi5rka3o0kommm79v797hdo171i21r9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coralapp.coralapp",
+            "certificate_hash": "2954965e5646ba0f73332f1862fd6600c04b8a56"
+          }
+        },
+        {
+          "client_id": "557195665484-85ce46t33j9c0enpv8nste65f00m3gkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgPff03OU-FzK2d9utWP1qBrjNBK6RCEI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557195665484-85ce46t33j9c0enpv8nste65f00m3gkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

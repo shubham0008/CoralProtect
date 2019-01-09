@@ -2,6 +2,7 @@
 ### What does CoralProtect do?
 
 Deploys slave cameras for detection that are radially located and are positioned in a specified and constant distance from the Raspberry   Pi device that uses image classifiers to detect whether any slave camera is transmitting video feed of dead or bleached coral reefs. 
+
 The model will be running on the Raspberry Pi using a Convolutional Neural Network that runs on TensorFlow Lite and then fires the      labels(0 or 1) to the cloud. 
 The mobile application provides two main features:
  - Ability to help clean litter by diving and earning credits that can be monetarized by government or NGO funds

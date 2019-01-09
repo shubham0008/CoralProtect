@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportActivity">
+
+    <ImageView
+        android:id="@+id/iv_alert_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/alert" />
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_alert_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="URGENT"
+        android:textColor="#333"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_curr_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Your current location will be sent to the authorised agencies"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_help_text"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tv_curr_loc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/border_edittext"
+        android:focusable="false"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Need supervision! \n Send someone really fast!" />
+
+    <Button
+        android:id="@+id/btn_help_someone"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_help_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="SEND" />
+
+</RelativeLayout>

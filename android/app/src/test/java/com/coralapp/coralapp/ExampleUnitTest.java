@@ -1,4 +1,4 @@
-package com.coralprotect;
+package com.coralapp.coralapp;
 
 import org.junit.Test;
 

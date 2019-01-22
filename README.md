@@ -10,13 +10,13 @@ The mobile application provides two main features:
 
 ### What is included in the product?
 
- - RaspberryPi Master Modules with TensorFlowLite CNN(Convolutional Neural Networks) model
- - NodeMCU Slave Modules with:
- - - Camera Feed 
- - - Temperature Sensor
- - - pH Sensor 
- - FireBase Realtime Database
- - Mobile Application 
+- RaspberryPi Master Modules with TensorFlowLite CNN(Convolutional Neural Networks) model
+- NodeMCU Slave Modules with:
+  - Camera Feed 
+  - Temperature Sensor
+  - pH Sensor 
+- FireBase Realtime Database
+- Mobile Application 
  
 ### System Architechure
 ![FlowChart](https://github.com/shubham0008/CoralProtect/blob/master/readme/Flowchart.jpg)
